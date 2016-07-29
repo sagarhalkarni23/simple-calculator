@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  sagar halkarni
+<head>
+    <title></title>
+</head>
+<body>
+  <script>
+  function add()
+  {
+var x= document.getElementById("num1").value;
+var y= document.getElementById("num2").value;
+var sum= +x + +y;
+    document.getElementById("result").innerText=sum;
+alert("the sum=" +sum);
+  }
+      </script>
+<form>
+Enter Number 1:<input type="number" id="num1">
+Enter Number 2:<input type="number" id="num2">
+<input type="button" value="add" onclick="add();">
+</form>
+  <div id="result">
+  </div>
+</body>
+</html>
